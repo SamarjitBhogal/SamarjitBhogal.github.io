@@ -1,0 +1,31 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    height: 100%;
+}
+
+.name-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    grid-row: 1;
+}
+
+.main-panel {
+    grid-column: 2 / 4;
+    grid-row: 1 / 9;
+}
+
+.sub-panel {
+    grid-column: 1 / 3;
+    grid-row: 2 / 8;
+}
