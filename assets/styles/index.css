@@ -3,29 +3,52 @@ html, body {
     padding: 0;
     margin: 0;
     height: 100%;
+    background-color: green;
 }
 
-.box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    height: 100%;
+a {
+    text-decoration: none;
 }
 
-.name-panel {
+li {
+    list-style: none;
+}
+
+.logo {
     display: flex;
+
+    background-color: red;
+    color: #000;
+    font-size: xxx-large;
+    padding: 20px;
+
     justify-content: center;
     align-items: center;
-
-    grid-row: 1;
 }
 
-.main-panel {
-    grid-column: 2 / 4;
-    grid-row: 1 / 9;
+.nav-links a {
+    color: black;
 }
 
-.sub-panel {
-    grid-column: 1 / 3;
-    grid-row: 2 / 8;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+}
+
+.nav {
+    display: flex;
+    background-color: purple;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: x-large;
+    font-weight: bold;
 }
