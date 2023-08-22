@@ -20,15 +20,18 @@ li {
 
     background-color: rgb(41, 60, 238);
     color: #000;
-    font-size: xxx-large;
+    font-size: x-large;
     padding: 20px;
 
     justify-content: center;
-    align-items: center;
 }
 
 .nav-links a {
     color: #fff;
+}
+
+.nav-links a:hover {
+    color: rgb(41, 60, 238);
 }
 
 .nav-container {
@@ -53,3 +56,19 @@ li {
     font-size: x-large;
     font-weight: bold;
 }
+
+.card-holder {
+    display: flex;
+    background-color: #000;
+
+    height: inherit;
+}
+
+#card1 {
+    background-color: rgb(41, 60, 238);
+}
+
+/* #card2 {
+    background-color: #000;
+    color: #fff;
+} */
