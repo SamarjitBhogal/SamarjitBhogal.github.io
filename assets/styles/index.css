@@ -34,6 +34,14 @@ li {
     color: rgb(41, 60, 238);
 }
 
+.logo-link {
+    color: #000;
+}
+
+.logo-link a:hover {
+    color: #fff;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -60,6 +68,7 @@ li {
 .card-holder {
     display: flex;
     background-color: #000;
+    color: #ffffff;
 
     height: inherit;
 }
@@ -72,3 +81,9 @@ li {
     background-color: #000;
     color: #fff;
 } */
+
+.pfp {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
